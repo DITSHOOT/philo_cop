@@ -76,7 +76,7 @@ bot.on('messageCreate', async (message) => {
 « Je préfère prendre mon petit rosé »
 « Vous m'avez coupé la chique »
 « C'est les professionnels un peu margoulin »
-« Je suis en manque (pinard) »
+« Je suis en manque »
 « J'aurais pu être une salope »
 
 
@@ -84,7 +84,6 @@ bot.on('messageCreate', async (message) => {
 
 « Faite pas attention si vous m'entendez m'astiquer »
 « Ne cracker pas les logiciels, c'est votre éthique de technicien qui est entre jeu »
-« Chaque année y'en a un (qui se connecte root, qui me dit que ça ne marche pas blablabla) »
 « C'est quoi ce machin de pénis »
 « Alors monsieur pénis ? »
 « Le pénis te fascine »
