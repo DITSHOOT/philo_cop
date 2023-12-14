@@ -5,6 +5,8 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Faire un facemath de citation (tournoi) || votez la meilleur citation, un 1vs1
+
 bot.login(process.env.TOKEN)
 
 
@@ -48,43 +50,83 @@ bot.on('ready', () => {
 
 bot.on('messageCreate', async (message) => {
   if (message.content.startsWith(config.prefix + 'annonce')) {
-    message.delete();
+    message.delete(); // suppression du message direct
     
     const embed = new Discord.EmbedBuilder()
-      .setTitle("░▒▓█ CITATION du 16/11/2023 █▓▒░")
+      .setTitle("░▒▓█ CITATION du 15/12/2023 █▓▒░")
       .setDescription(`
 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 ╒═══════════════════════════════════════════════╕
 
-**__Petit résumé__** : Suivez Vivet dans un monde où pousser est essentiel, Dumas part à la quête de picole, Gregory jongle avec le Quoicoubeh, et Vincent révèle la Loi de Godwin. Balzano, le maître de la moquerie, assure que l'informatique se porte bien, pendant que Vivet, le GOAT, dicte à Valentin de se redresser et condamne Jordan à errer dans le couloir. Même les fossiles, comme Valentin, ne sont pas à l'abri de disparités et de questions existentielles sur les doigts de la main, comme le souligne Balzano et Wallon.
+**__Petit résumé__** : Entrez dans le monde de Balzano, le gourou du gaming, transformant chaque moment en un niveau à débloquer. Dumas, quant à elle, préfère dépenser son pognon de dingue en rosé et en pinard ; la pauvre, elle est en manque. Et, qui l'aurait cru ? Elle se demande si elle aurait pu être une salope. Un dilemme existentiel en soi. Greg, nostalgique, se rappelle d'une époque où sa machine ne couinait pas... mmhhh bizarre... Ensuite, il y a Mr. Guichard, s'astiquant bruyamment, nous prévient que même si le pénis le fascine, il faut garder une éthique de technicien intacte. Pendant ce temps, sa fille est une écrivaine de sa propre réalité (ouf, ça fait mal ça...). Provost, le pingouin déjanté, balance des pommes par la fenêtre de l'informatique (coup dur pour Apple), tandis que Sagnard, confronté à l'ennui et à sa vexance, déclare que quelque chose pue... mmhh, Enzo ou Zack, d'après vous ? Vivet, le grand chef de l'autonomie, transforme ses disciples en pousses cassettes avec des conseils aussi pratiques que d'utiliser deux mains. Cependant, la plupart du temps, il semble plus occupé à déclarer son amour pour son pote GPT-4, qu'il arrose généreusement de 25€ par mois, tout en dénonçant la télévision comme de la propagande. C'est le genre de guide qui vous enseignerait l'art du saut à la corde avec un câble d'alimentation, vous voyez le bordel ? Ensuite, Wallon, philosophe du sprint intellectuel, affirme que plus on est con, plus on est rapide, tout en lançant des taquineries à chaque petit humain qu'il croise.
 
 ╘═══════════════════════════════════════════════╛
 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 
 
 ￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
-« N'oubliez pas de pousser » - Vivet 
-« Tu lui rends pas service » - Vivet
-« Fermez vos postes sinon j'ai pas votre attention à 100% » - Vivet
-« Je ne comprends pas ta question » - Vivet 
-« Tiens toi droit ! En entreprise tu te tiens pas comme ça. » - Vivet 
-« Va mourir dans le couloir » - Vivet 
-« Désolé mais tu as tort » - Vivet ||(Valentin à propos d'Apple, circa Octobre 2023)||
-« qu'il est moqueur » - Balzano
-« il y a de forte disparité » - Balzano
-« L'informatique se porte bien ? » - Balzano
-« qui me cite les 5 doigts de la main » - Wallon
-« Ça, ça passera pas ça par contre » - Wallon
-« Quoicoubeh » - Wallon
-« Je vais chercher de la picole, je reviens » - Dumas 
-« Licence IV » - Dumas 
-« On a un fossile dans la classe » - Guichard 
-« Loi de Godwin » - Sagnard
+**Balzano :**
+
+« On va dire que c'est un truc de gaming... »
+
+**Dumas :**
+
+« Vous croyez qu'on va au bistro ?! »
+« Le pognon de dingue »
+« Je préfère prendre mon petit rosé »
+« Vous m'avez coupé la chique »
+« C'est les professionnels un peu margoulin »
+« Je suis en manque (pinard) »
+« J'aurais pu être une salope »
+
+**Greg :**
+
+« A l'époque il couinait pas »
+
+**Mr.GUICHARD :**
+
+« Faite pas attention si vous m'entendez m'astiquer »
+« Ne cracker pas les logiciels, c'est votre éthique de technicien qui est entre jeu »
+« Chaque année y'en a un (qui se connecte root, qui me dit que ça ne marche pas blablabla) »
+« C'est quoi ce machin de pénis »
+« Alors monsieur pénis ? »
+« Le pénis te fascine »
+
+**Mme. Guichard :**
+
+« Je suis écrivaine »
+
+**Provost :**
+
+« Je suis un pingouin qui balance la pomme par la fenêtre »
+
+**Sagnard :**
+
+« Ça vous embête de ne pas avoir un cours intéressant ? »
+« Rooohhh sa pue sa »
+
+**Vivet :**
+
+« Vous serez des pousses cassettes »
+« Mon objectif c'est que vous soyez autonome »
+« Laisse-le se débrouiller, tu ne l'aides pas en faisant ça »
+« On n'est d'accord ? »
+« Utilise tes 2 mains, ça ira plus vite »
+« N'hésitez pas à me solliciter »
+« Chhhhhuuuuuuttttttttt »
+« Ferme-la et réouvre car, j'en sais rien en fait »
+« La télé c'est de la propagande »
+
+**Wallon :**
+
+« Plus on est con, plus on est rapide »
+« Petite humain que tu es »
 
 ￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
 **__BONUS :__** 
-« Si il arrive une cacahuète » - Zakou
-« à mon époque » - Jordande 
+
+« Astronimique macroniste, ça part en extrême droite » - Dimitri
+
 `)
       .setColor("#6d5050")
       .setAuthor({
@@ -96,10 +138,12 @@ bot.on('messageCreate', async (message) => {
         iconURL: message.guild.iconURL({ dynamic: true, format: 'png', size: 1024 })
       });
 
-    await message.channel.send({ embeds: [embed] });
-    message.channel.send('@everyone');
-  }
-});
+
+      await message.channel.send({ embeds: [embed] });
+      message.channel.send('@everyone');
+    }
+  });
+  
 
 
 
