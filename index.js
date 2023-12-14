@@ -79,11 +79,8 @@ bot.on('messageCreate', async (message) => {
 « Je suis en manque (pinard) »
 « J'aurais pu être une salope »
 
-**Greg :**
 
-« A l'époque il couinait pas »
-
-**Mr.GUICHARD :**
+**Mr. Guichard :**
 
 « Faite pas attention si vous m'entendez m'astiquer »
 « Ne cracker pas les logiciels, c'est votre éthique de technicien qui est entre jeu »
@@ -121,6 +118,7 @@ bot.on('messageCreate', async (message) => {
 
 « Plus on est con, plus on est rapide »
 « Petite humain que tu es »
+« A l'époque il couinait pas »
 
 ￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
 **__BONUS :__** 
