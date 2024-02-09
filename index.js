@@ -145,6 +145,7 @@ bot.on('messageCreate', async (message) => {
 
 
 
+
 bot.on('messageCreate', (message) => {
   if (message.author.bot) return; // Ne répondez pas aux messages des bots
   if (!message.content.startsWith(config.prefix)) return; // Vérifiez s'il commence par le préfixe
@@ -158,15 +159,20 @@ bot.on('messageCreate', (message) => {
       return message.reply('Seuls les administrateurs sont autorisés à utiliser cette commande.');
     } 
 
+    // Supprime la commande de l'utilisateur
+    message.delete();
+
+    // Vérifiez si l'utilisateur est également un administrateur pour utiliser args.join
+    if (!message.member.permissions.has('ADMINISTRATOR')) {
+      return message.reply('Seuls les administrateurs sont autorisés à utiliser cette partie de la commande.');
+    }
+
     // Récupère le message de l'utilisateur, en excluant le préfixe
     const userMessage = args.join(' ');
     if (!userMessage) {
       return message.channel.send('Veuillez écrire un message.');
     }
 
-    // Supprime la commande de l'utilisateur
-    message.delete();
-  
     // Envoie le message personnalisé de l'utilisateur
     message.channel.send(userMessage);
   }
