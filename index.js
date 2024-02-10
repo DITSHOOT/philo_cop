@@ -53,12 +53,12 @@ bot.on('messageCreate', async (message) => {
     message.delete(); // suppression du message direct
     
     const embed = new Discord.EmbedBuilder()
-      .setTitle("░▒▓█ CITATION du 15/12/2023 █▓▒░")
+      .setTitle("░▒▓█ CITATION du 10/02/2024 █▓▒░")
       .setDescription(`
 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 ╒═══════════════════════════════════════════════╕
 
-**__Petit résumé__** : Entrez dans le monde de Balzano, le gourou du gaming, transformant chaque moment en un niveau à débloquer. Dumas, quant à elle, préfère dépenser son pognon de dingue en rosé et en pinard ; la pauvre, elle est en manque. Et, qui l'aurait cru ? Elle se demande si elle aurait pu être une salope. Un dilemme existentiel en soi. Greg, nostalgique, se rappelle d'une époque où sa machine ne couinait pas... mmhhh bizarre... Ensuite, il y a Mr. Guichard, s'astiquant bruyamment, nous prévient que même si le pénis le fascine, il faut garder une éthique de technicien intacte. Pendant ce temps, sa fille est une écrivaine de sa propre réalité (ouf, ça fait mal ça...). Provost, le pingouin déjanté, balance des pommes par la fenêtre de l'informatique (coup dur pour Apple), tandis que Sagnard, confronté à l'ennui et à sa vexance, déclare que quelque chose pue... mmhh, Enzo ou Zack, d'après vous ? Vivet, le grand chef de l'autonomie, transforme ses disciples en pousses cassettes avec des conseils aussi pratiques que d'utiliser deux mains. Cependant, la plupart du temps, il semble plus occupé à déclarer son amour pour son pote GPT-4, qu'il arrose généreusement de 25€ par mois, tout en dénonçant la télévision comme de la propagande. C'est le genre de guide qui vous enseignerait l'art du saut à la corde avec un câble d'alimentation, vous voyez le bordel ? Ensuite, Wallon, philosophe du sprint intellectuel, affirme que plus on est con, plus on est rapide, tout en lançant des taquineries à chaque petit humain qu'il croise.
+**__Petit résumé__** : Dans l'univers déjanté de Balzano, où le babouin est l'incarnation de la satisfaction, Boute s'exprime avec des "Suckers" et des injonctions à "Fermer vos gueules". Pendant ce temps, Dumas dévoile ses pensées sur le romantisme de Jean Luc et Mireille, prône le Doliprane comme remède miracle, et s'interroge sur la régularisation de la prostitution tout pensant à Zakaria. Mr. Guichard, fumeur endurci, associe la neige à sa vieille clope et considère l'Union Européenne comme le 4ème Reich, tout en donnant l'impression de déjà connaître ce mystérieux Reich. Provost, maître de l'humour corrosif, questionne sur les incidents claviers-porno et dénonce la "violence" dans un cours qu'il compare à un élevage de porcs. Sagnard, toujours dans l'excentricité, remercie pour la "plus grosse", explore des analogies douteuses sur les étoiles de David, et classe le réseau comme "kebab". Vivet, expert des répliques cinglantes, accuse un étudiant d'avoir une diarrhée verbale, partage son passé de coureur lent, menace de coups de pieds le même étudiant qui met ses pieds sous sa table, et assiste impassible au coming-out d'Enzo. Enfin, confronté à la souffrance persistante de ses collègues sur plusieurs mois, Dimitri franchit le pas, plonge dans une expression libérée, et implore Vivet d'arrêter de tourner, soulignant les maux de tête que cela lui occasionne. En guise d'anecdote, Vivet s'assoit paisiblement sur sa chaine et se déplace comme s'il marchait sur la Lune, plongeant l'endroit dans un silence total. Aurait-ce résolu le problème ?
 
 ╘═══════════════════════════════════════════════╛
 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
@@ -67,62 +67,76 @@ bot.on('messageCreate', async (message) => {
 ￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
 **Balzano :**
 
-« On va dire que c'est un truc de gaming... »
+« Le babouin serra content. »
+
+**Boute :**
+
+« Suckers »
+« Fermez vos gueules »
+
 
 **Dumas :**
 
-« Vous croyez qu'on va au bistro ?! »
-« Le pognon de dingue »
-« Je préfère prendre mon petit rosé »
-« Vous m'avez coupé la chique »
-« C'est les professionnels un peu margoulin »
-« Je suis en manque »
-« J'aurais pu être une salope »
-
+« Le jean Luc il est chaud lapin avec la Mireille »
+« Un doliprane et ça repart »
+« J'écoutais Booba quand j'étais plus jeune »
+« On devrait régulariser la prostitution »
+« La drogue ca n'existe pas »
+« J'ai pensé a vous Zakaria »
+« Euh connard pourqoi ca marche pas »
+« On déshabille  20 personne pour habiller l'autre »
+« Ils nous font chier les Allemands »
+« »
 
 **Mr. Guichard :**
 
-« Faite pas attention si vous m'entendez m'astiquer »
-« Ne cracker pas les logiciels, c'est votre éthique de technicien qui est entre jeu »
-« C'est quoi ce machin de pénis »
-« Alors monsieur pénis ? »
-« Le pénis te fascine »
+« Je vais aller voir la neige »
+« Pour moi le 4ieme Reich c'est Union Européenne »
+« je connais le 4iem Reich j'y ai deja penser »
+« Je vais me faire ma clope avant de me geler les couilles »
+« Salaud toi tu m'a donner envie de manger des ribes sauces barbecue »
 
-**Mme. Guichard :**
-
-« Je suis écrivaine »
 
 **Provost :**
 
-« Je suis un pingouin qui balance la pomme par la fenêtre »
+« Qu'est ce que t'as fait tomber sur tes touches pendant que tu regardais ton porno ? »
+« En tout cas elle est pas raciste envers les gitans »
+« Cherche pas je t'ai rodave »
+« Pourquoi tant de violence »
+« Parce que vous êtes des esclaves »
+« Je sais pas si je suis dans un cours ou un élevage porc »
+« TCHOU » - Provost
+« Je m'entraîne à avoir une augmentation »
 
 **Sagnard :**
 
-« Ça vous embête de ne pas avoir un cours intéressant ? »
-« Rooohhh sa pue sa »
+« Ah merci vous m'avez laisser la plus grosse »
+« Au pays des négros »
+« Va leur demander à ceux qui portaient l’étoile de David sur leur pyjama si c’était une croix. Ah ba non tu peux pas. »
+« Le réseau il est kebab »
+« T'etait en train de steamer sur OnlyFan ? »
+« Internet c'est pour le porno » 
+
 
 **Vivet :**
 
-« Vous serez des pousses cassettes »
-« Mon objectif c'est que vous soyez autonome »
-« Laisse-le se débrouiller, tu ne l'aides pas en faisant ça »
-« On n'est d'accord ? »
-« Utilise tes 2 mains, ça ira plus vite »
-« N'hésitez pas à me solliciter »
-« Chhhhhuuuuuuttttttttt »
-« Ferme-la et réouvre car, j'en sais rien en fait »
-« La télé c'est de la propagande »
+« Tu veux montrer que tu sais, mais tu sais rien, tu es atteint d'une logorrhée et à ton âge c'est grave. C'est une diarrhée verbale. »
+« Quand j'étais jeune, je courrais pas vite »
+« Si tu mets encore tes pieds sous ma table, je te donne coups de pieds »
+« Y fait son coming-out (Pauvre Enzo..) »
 
 **Wallon :**
 
-« Plus on est con, plus on est rapide »
-« Petite humain que tu es »
-« A l'époque il couinait pas »
+« Ok t'es con enfaite »
+
 
 ￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
 **__BONUS :__** 
 
-« Astronimique macroniste, ça part en extrême droite » - Dimitri
+« C'est sous les plus gros rocher que ce cache les plus gros serpent » - Nicolas
+« Tu remarques que tu es gros, quand tu vois plus ta bite » - Dimitri
+« Monsieur vous pouvez arrêter de tournée, vous me faites mal a la tête » - Dimitri 
+« Les  malgache, c’est ceux qui habitent au Maroc non ? » - Jordan le raciste 
 
 `)
       .setColor("#6d5050")
@@ -136,7 +150,10 @@ bot.on('messageCreate', async (message) => {
       });
 
 
-      await message.channel.send({ embeds: [embed] });
+      const sentMessage = await message.channel.send({ embeds: [embed] });
+
+      await sentMessage.react('👍');
+
       message.channel.send('@everyone');
     }
   });
